@@ -1,0 +1,5 @@
+{
+  "dsn": "mysql:host=mysql8;port=3306;dbname=main_db",
+  "username": "root",
+  "password": "dbpass"
+}
