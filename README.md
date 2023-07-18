@@ -7,7 +7,7 @@
 
 ## Project Task Overview
 
-**Task**: Create an application that tracks banner views while displaying pages with a banner. The application should record user data and viewing time without using any frameworks.
+**Task**: Create an application that tracks banner views while displaying pages with a banner. The application should record user data and viewing time **without using any frameworks**.
 
 The project should contain a minimum of 4 files:
 - index1.html
@@ -32,7 +32,7 @@ Every time the image is loaded, the page visitor's info should be recorded in th
 - URL of the page where the image was loaded (_page_url_ column);
 - Number of image loads for the same visitor (_views_count_ column).
 
-If a user with the same IP address, user-agent, and page URL hits the page again, the _view_date_ column has to be updated with the current date and time, as well as views_count column has to be increased by 1.
+If a user with the same IP address, user-agent, and page URL hits the page again, the _view_date_ column has to be updated with the current date and time, as well as _views_count_ column has to be increased by 1.
 
 ## Installation Overview
 
