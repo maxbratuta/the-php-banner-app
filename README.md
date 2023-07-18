@@ -7,7 +7,7 @@
 
 ## Project Task Overview
 
-Task: Create an application that tracks banner views while displaying pages with a banner. The application should record user data and viewing time without using any frameworks.
+**Task**: Create an application that tracks banner views while displaying pages with a banner. The application should record user data and viewing time without using any frameworks.
 
 The project should contain a minimum of 4 files:
 - index1.html
@@ -16,23 +16,23 @@ The project should contain a minimum of 4 files:
 - scheme.sql
 
 The MySQL table structure should have the following mandatory columns:
-- ip_address
-- user_agent
-- view_date
-- page_url
-- views_count
+- _ip_address_
+- _user_agent_
+- _view_date_
+- _page_url_
+- _views_count_
 
 
-The index1.html and index2.html pages should have an image tag that inserts some image into the page using banner.php file: < img src="banner.php" >
+The **index1.html** and **index2.html** pages should have an image tag that inserts some image into the page using **banner.php** file: _< img src="banner.php" >_
 
 Every time the image is loaded, the page visitor's info should be recorded in the MySQL table:
-- IP address of the visitor (ip_address column)
-- Their user-agent (user_agent column)
-- The date and time the image was shown for this visitor (view_date column)
-- URL of the page where the image was loaded (page_url column)
-- Number of image loads for the same visitor (views_count column) - conditions are described below.
+- IP address of the visitor (_ip_address_ column);
+- Their user-agent (_user_agent_ column);
+- The date and time the image was shown for this visitor (_view_date_ column);
+- URL of the page where the image was loaded (_page_url_ column);
+- Number of image loads for the same visitor (_views_count_ column).
 
-If a user with the same IP address, user-agent, and page URL hits the page again, the view_date column has to be updated with the current date and time, as well as views_count column has to be increased by 1.
+If a user with the same IP address, user-agent, and page URL hits the page again, the _view_date_ column has to be updated with the current date and time, as well as views_count column has to be increased by 1.
 
 ## Installation Overview
 
