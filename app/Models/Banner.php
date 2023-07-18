@@ -80,7 +80,7 @@ class Banner
     private function updateVisitCounter(int $id): void
     {
         $sql = <<<SQL
-            UPDATE visitors_2 SET 
+            UPDATE visitors SET 
                 views_count = views_count + 1, 
                 view_date = now() 
             WHERE id = :id
